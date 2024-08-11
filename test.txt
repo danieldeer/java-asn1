@@ -1,0 +1,8 @@
+Person DEFINITIONS ::= BEGIN
+
+  Person ::= SEQUENCE {
+    name IA5String,
+    age  INTEGER
+  }
+
+END
